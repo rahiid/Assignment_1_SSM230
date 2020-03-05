@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Poppins';
+    font-size: 14px;
+    line-height: 24px;
+    background-color: 	#E1E1E1;
+      
+}
+.container{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+  height:100%
+  
+}
+.login_box{
+    width: 50%;
+    margin: 30px, auto;
+    height: 600px;
+    background-color: rgb(255, 255, 255);
+    
+    float:left;
+}
+
+.login_inner{
+    width: 80%;
+    padding: 80px,20px;
+    margin: 0px, auto;
+    text-align: center;
+}
+
+.login_inner img{
+margin: 50px 20px 0px 20px;
+
+}
+
+.login_inner h1{
+    font-size: 30px;
+    line-height: 45px;
+    color:  rgb(53, 241, 153);
+
+}
+
+.main_login{
+    width:100%;
+   
+}
+
+.form_control{
+    width: 100%;
+    margin: 20px 0px;
+
+}
+
+.form_control .inner_feild{
+    widows: 50%;
+    padding: 8px;
+    border:1px solid black;
+
+}
+
+.form_control label{
+
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.main_login .btn{
+    padding: 10px 20px;
+    background-color: rgb(53, 241, 153);
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid rgb(53, 241, 153);
+}
+.main_login .btn:hover{
+    background-color: transparent;
+    border: 1px solid  rgb(53, 241, 153);
+    color:  rgb(53, 241, 153);
+}
+
+.right_side{
+
+    float: right;
+    width: 50%;
+    margin: 30px, auto;
+    height: 600px;
+    background-color: rgb(53, 241, 153);
+    
+    float:left;
+
+}
+.box{
+    margin: 80px;
+    line-height: 45px;
+    text-align: center;
+   
+}
+.box h1{
+    color: white;
+}
+.box p{
+    color:white;
+}
+.box .btn2{
+    padding: 10px 20px;
+    background-color: whitesmoke;
+    color: #0DCA78;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+}
+.login_box .line .rf{
+    float: left 10px;
+    
+}
+.login_box .line .lf{
+    float: right;
+}
